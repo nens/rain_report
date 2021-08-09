@@ -10,7 +10,7 @@ angular.module('api', [])
     'srs=EPSG:4326&' +
     'start={start_date}&' +
     'stop={stop_date}&' +
-    'window=3600000';
+    'window=300000';
 
   var redirect = function () {
     window.location.href = '//' + window.location.host +
